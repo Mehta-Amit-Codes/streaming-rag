@@ -1,5 +1,7 @@
 # Streaming, Real-Time RAG over Live Data
 
+[![Diagram](https://img.shields.io/badge/gitdiagram-view%20architecture-blue)](https://gitdiagram.com/mehta-amit-codes/streaming-rag)
+
 Freshness-aware, **multi-tenant** RAG over continuously updating sources. Most RAG
 demos index a static folder of PDFs. This one ingests from live feeds, embeds only what
 is new, lets stale facts fade or expire, tells the user *how old* its sources are, and can
