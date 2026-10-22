@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.db
+*.db-wal
+*.db-shm
+qdrant_data/
+.streamlit/
+.pytest_cache/
+exports/*
+!exports/.gitkeep
