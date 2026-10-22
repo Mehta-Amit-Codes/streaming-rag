@@ -1,0 +1,14 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.9
+requests>=2.32
+qdrant-client>=1.10
+feedparser>=6.0
+# APScheduler 4.x is a ground-up rewrite with a different API; this code targets 3.x.
+apscheduler>=3.10,<4
+openai>=1.51
+python-dotenv>=1.0
+streamlit>=1.38
+pandas>=2.2
+# Default embedder. Set EMBEDDER=hash to run offline with no model download (lexical only; for demos/tests).
+sentence-transformers>=3.0
